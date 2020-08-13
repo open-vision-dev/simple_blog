@@ -15,6 +15,9 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+			<pre>
+	           {{var_export(auth()->user(),true)}}
+		</pre>
                 </div>
             </div>
         </div>
